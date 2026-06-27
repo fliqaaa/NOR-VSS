@@ -1,51 +1,57 @@
 # Vizualizacija scen AR aplikacije
 
-## Scena 1: Zagon aplikacije (AR kamera)
-![Scena 1](slike/scena-01.png)
+## Scena 1 – Zagon aplikacije
 
-**Opis:**
-Uporabnik odpre aplikacijo na mobilnem telefonu. Na zaslonu vidi kamero, ki prikazuje realno okolje (npr. tla ali prostor v termah).
+Ob zagonu aplikacije uporabnik vidi pogled skozi kamero mobilnega telefona.
 
-Na zaslonu se izpiše navodilo, da naj uporabnik premika telefon za zaznavanje površine.
+Na zaslonu se prikaže mreža za zaznavanje površine ter navodilo, da telefon premika po prostoru.
 
-Uporabnik lahko:
-- premika telefon
-- začne zaznavanje AR površine
-
-Namen scene je priprava uporabnika na AR izkušnjo.
+Ko aplikacija zazna ravno površino, lahko uporabnik nadaljuje z uporabo aplikacije.
 
 ---
 
-## Scena 2: AR informacijske točke
-![Scena 2](slike/scena-02.png)
+## Scena 2 – Prikaz AR informacijskih točk
 
-**Opis:**
-Ko aplikacija zazna površino, se v prostoru prikažejo AR ikone (npr. bazen, savna, wellness).
+Po uspešni zaznavi površine se pojavijo tri AR ikone:
 
-Ikone so postavljene na tla ali v prostor in označujejo različne storitve.
+* Pool
+* Sauna
+* Massage
 
-Uporabnik lahko:
-- vidi AR objekte v prostoru
-- se premika okoli njih
-- klikne na posamezno ikono
+Ikone so postavljene v prostoru in predstavljajo posamezne storitve Term Topolšica.
 
-Namen scene je predstavitev glavne funkcionalnosti aplikacije.
+Uporabnik se lahko okoli njih premika ter jih poljubno izbira.
 
 ---
 
-## Scena 3: Prikaz informacij
-![Scena 3](slike/scena-03.png)
+## Scena 3 – Informacijski panel
 
-**Opis:**
-Ko uporabnik klikne na AR ikono, se prikaže informacijski panel.
+Ob pritisku na posamezno AR ikono se odpre informacijski panel.
 
 Panel vsebuje:
-- ime storitve (npr. Wellness center)
-- opis
-- delovni čas
 
-Uporabnik lahko:
-- bere informacije
-- zapre panel
+* naziv storitve
+* opis storitve
+* priporočeno trajanje
+* osnovne informacije
 
-Namen scene je prikaz dodatnih informacij o izbranem objektu.
+Primer:
+
+**Traditional Dry Sauna**
+
+* temperatura približno 90 °C
+* priporočeno trajanje 10–15 minut
+* koristi za sprostitev in razstrupljanje telesa
+
+Na panelu je tudi gumb za zapiranje informacijskega okna.
+
+---
+
+## Potek uporabe
+
+1. uporabnik odpre aplikacijo
+2. aplikacija zazna površino
+3. prikažejo se AR ikone
+4. uporabnik izbere eno izmed ikon
+5. prikaže se informacijski panel
+6. uporabnik zapre panel ali izbere drugo storitev

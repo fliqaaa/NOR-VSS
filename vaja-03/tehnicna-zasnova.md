@@ -1,23 +1,68 @@
 # Tehnična zasnova aplikacije
 
 ## Tip aplikacije
+
 AR (Augmented Reality)
 
-## Uporabnikova prisotnost
-Uporabnik je prisoten v realnem svetu in uporablja mobilni telefon za obogateno izkušnjo.  
-Aplikacija dodaja virtualne informacije na resnično okolje, uporabnik pa se premika okoli in interagira z AR objekti.
+## Namen aplikacije
 
-## Razvojno orodje
-- **Engine:** Unity 2022/2023  
-- **AR Framework:** AR Foundation (združuje ARCore za Android in ARKit za iOS)  
-- **Programski jezik:** C#  
+Aplikacija uporabniku omogoča pregled ponudbe Term Topolšica s pomočjo tehnologije obogatene resničnosti.
 
-## Ciljna naprava
-- Mobilni telefon  
-  - Android (ARCore)  
-  - iOS (ARKit)  
+Virtualni elementi so prikazani neposredno v realnem prostoru preko kamere mobilnega telefona.
 
-## Način interakcije
-- Dotik zaslona za izbiro AR objektov  
-- Premikanje telefona za pregled okolice in zaznavanje površin  
-- Tap na ikono → prikaže informacijski panel  
+## Razvojno okolje
+
+Za razvoj aplikacije bo uporabljena platforma **Antigravity**.
+
+Platforma omogoča izdelavo AR aplikacij z uporabo vizualnega urejevalnika in podpira:
+
+* zaznavanje ravnih površin
+* postavljanje AR objektov
+* uporabniške interakcije
+* prikaz informacijskih panelov
+
+## Ciljna platforma
+
+Mobilni telefon:
+
+* Android
+* iOS
+
+## Način delovanja
+
+1. uporabnik zažene aplikacijo
+2. aplikacija aktivira kamero
+3. zazna ravno površino
+4. v prostoru postavi AR ikone
+5. uporabnik izbere posamezno ikono
+6. prikaže se informacijski panel
+7. uporabnik nadaljuje raziskovanje ponudbe
+
+## Interakcija uporabnika
+
+Uporabnik uporablja:
+
+* premikanje mobilnega telefona
+* dotik zaslona
+* izbiro AR ikon
+* zapiranje informacijskih panelov
+
+## Uporabniški vmesnik
+
+Uporabniški vmesnik je zasnovan minimalistično.
+
+Vsebuje:
+
+* pogled kamere
+* mrežo za zaznavanje površine
+* AR ikone
+* informacijski panel
+* gumbe za osnovne interakcije
+
+## Prednosti rešitve
+
+* enostavna uporaba
+* interaktivna predstavitev ponudbe
+* sodoben način predstavitve turistične destinacije
+* izboljšana uporabniška izkušnja
+* možnost nadaljnje nadgradnje z dodatnimi AR vsebinami

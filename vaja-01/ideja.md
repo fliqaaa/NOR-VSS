@@ -1,29 +1,55 @@
 # Naziv aplikacije
+
 AR Info Terme Topolšica
 
 ## Tip aplikacije
+
 AR (Augmented Reality)
 
-## Problem ali potreba
-Obiskovalci Term Topolšica pogosto ne poznajo vseh storitev in ponudbe. Klasične table niso interaktivne in ne nudijo dovolj informacij na zanimiv način.
+## Opis projekta
+
+AR Info Terme Topolšica je mobilna aplikacija z obogateno resničnostjo, namenjena predstavitvi storitev in ponudbe Term Topolšica na sodoben in interaktiven način.
+
+Uporabnik preko kamere mobilnega telefona zazna ravno površino, nato pa se v prostoru prikažejo interaktivne AR ikone. S pritiskom na posamezno ikono pridobi informacije o izbrani storitvi.
+
+## Problem oziroma potreba
+
+Obiskovalci Term Topolšica pogosto ne poznajo vseh storitev, ki jih terme ponujajo. Informacije so običajno predstavljene na klasičnih tablah ali spletni strani, kar ni vedno pregledno in uporabniku prijazno.
+
+AR aplikacija omogoča sodobnejši način predstavitve ponudbe ter izboljša uporabniško izkušnjo.
 
 ## Ciljna skupina
-- Obiskovalci term
-- Turisti
-- Družine
+
+* obiskovalci Term Topolšica
+* turisti
+* družine
+* novi obiskovalci
+* uporabniki mobilnih naprav
 
 ## Primer uporabe
-Uporabnik odpre aplikacijo in s kamero pogleda okolico ali ravno površino.
 
-Na zaslonu se prikažejo AR točke (ikone), ki predstavljajo različne dele term (npr. bazen, savna, wellness).
+Uporabnik zažene aplikacijo in usmeri kamero proti tlom.
 
-Ko uporabnik klikne na posamezno točko, se prikažejo osnovne informacije (opis, delovni čas).
+Po zaznavi površine se prikažejo AR informacijske točke:
 
-## Osnovne funkcionalnosti
-- Zaznavanje površine (plane detection)
-- Prikaz AR objektov (ikone)
-- Klik na objekt za prikaz informacij
-- Preprost uporabniški vmesnik (UI panel)
+* Pool
+* Sauna
+* Massage
 
-## Izbrana platforma
-Mobilni telefon (ARCore / ARKit)
+S pritiskom na posamezno ikono se odpre informacijski panel z opisom storitve, priporočeno uporabo in dodatnimi informacijami.
+
+## Glavne funkcionalnosti
+
+* zaznavanje ravne površine
+* postavitev AR objektov
+* prikaz interaktivnih ikon
+* prikaz informacij ob pritisku na ikono
+* enostaven uporabniški vmesnik
+
+## Razvojno okolje
+
+Aplikacija bo razvita v platformi **Antigravity**, ki omogoča izdelavo mobilnih AR aplikacij brez klasičnega programiranja.
+
+## Ciljna naprava
+
+Mobilni telefon z podporo za AR.
