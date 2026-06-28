@@ -1,0 +1,6 @@
+{
+  "name": "AR Wellness Explorer – Terme Topolšica",
+  "description": "An interactive Augmented Reality (AR) mobile prototype for exploring the premium thermal pools, saunas, and massage treatments at Terme Topolšica.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -4,54 +4,50 @@
 
 Ob zagonu aplikacije uporabnik vidi pogled skozi kamero mobilnega telefona.
 
-Na zaslonu se prikaže mreža za zaznavanje površine ter navodilo, da telefon premika po prostoru.
+Na zaslonu se prikaže modra AR mreža za zaznavanje ravne površine ter navodilo za premikanje telefona.
 
-Ko aplikacija zazna ravno površino, lahko uporabnik nadaljuje z uporabo aplikacije.
+Po uspešni zaznavi površine se prikaže gumb **Place Wellness**.
 
 ---
 
-## Scena 2 – Prikaz AR informacijskih točk
+## Scena 2 – Postavitev wellness kompleksa
 
-Po uspešni zaznavi površine se pojavijo tri AR ikone:
+Po pritisku na gumb **Place Wellness** se na zaznani površini prikaže miniaturni 3D wellness kompleks.
 
-* Pool
-* Sauna
+Kompleks vsebuje tri interaktivne objekte:
+
+* Thermal Pool
+* Traditional Sauna
 * Massage
 
-Ikone so postavljene v prostoru in predstavljajo posamezne storitve Term Topolšica.
-
-Uporabnik se lahko okoli njih premika ter jih poljubno izbira.
+Uporabnik lahko okoli modela hodi, ga opazuje z različnih kotov in raziskuje posamezne objekte.
 
 ---
 
-## Scena 3 – Informacijski panel
+## Scena 3 – Prikaz informacij
 
-Ob pritisku na posamezno AR ikono se odpre informacijski panel.
+Ob dotiku posameznega objekta se ta poudari z animacijo in svetlobnim učinkom.
+
+Nad objektom se prikaže lebdeči informacijski panel.
 
 Panel vsebuje:
 
+* fotografijo prostora
 * naziv storitve
-* opis storitve
+* kratek opis
 * priporočeno trajanje
-* osnovne informacije
-
-Primer:
-
-**Traditional Dry Sauna**
-
-* temperatura približno 90 °C
-* priporočeno trajanje 10–15 minut
-* koristi za sprostitev in razstrupljanje telesa
-
-Na panelu je tudi gumb za zapiranje informacijskega okna.
+* glavne prednosti
+* gumb za zapiranje
 
 ---
 
 ## Potek uporabe
 
 1. uporabnik odpre aplikacijo
-2. aplikacija zazna površino
-3. prikažejo se AR ikone
-4. uporabnik izbere eno izmed ikon
-5. prikaže se informacijski panel
-6. uporabnik zapre panel ali izbere drugo storitev
+2. aplikacija aktivira kamero
+3. zazna ravno površino
+4. uporabnik izbere **Place Wellness**
+5. prikaže se 3D wellness kompleks
+6. uporabnik izbere posamezen objekt
+7. prikaže se informacijski panel
+8. uporabnik nadaljuje raziskovanje ponudbe
